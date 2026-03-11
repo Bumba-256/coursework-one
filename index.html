@@ -1,13 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coursework 1</title>
+    <title>Assignment - Universities in Uganda</title>
+    <style>
+        table { border-collapse: collapse; width: 50%; text-align: center; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 8px; }
+        .break-cell { font-weight: bold; }
+    </style>
 </head>
 <body>
-    <img src="glc.avif" height="500" alt="glc car front view">
-    <h1>Mercedes-Benz</h1>
-    <h1>Drive the future of Elegence</h1>
+
+    <h2>Assignment</h2>
+    <h3><u>Universities in Uganda</u></h3>
+
+    <ul>
+        <li><strong><u>Kyambogo</u></strong>
+            <ol type="i">
+                <li>Mechanics</li>
+                <li>Computing</li>
+                <li>Social works</li>
+            </ol>
+        </li>
+
+        <li><strong><u>Makerere</u></strong>
+            <ol>
+                <li>Computing</li>
+                <li>Medicine
+                    <ul style="list-style-type: square;">
+                        <li>Nursing</li>
+                        <li>Surgery</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+
+        <li><strong><u>Mbarara</u></strong>
+            <ul style="list-style-type: circle;">
+                <li>Engineering</li>
+                <li>Science</li>
+                <li>Technology</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <table>
+        <caption><strong>TIME TABLE</strong></caption>
+        <thead>
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THUR</th>
+                <th>FRI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BITC</td>
+                <td rowspan="2">BIS</td>
+                <td rowspan="3">BIS</td>
+                <td>BITC</td>
+                <td rowspan="2">BLIS</td>
+            </tr>
+            <tr>
+                <td>BTC</td>
+                <td>BLIS</td>
+            </tr>
+            <tr>
+                <td>BLIS</td>
+                <td></td>
+                <td>BIS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="5" class="break-cell">BREAK</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
